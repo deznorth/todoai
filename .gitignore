@@ -57,18 +57,18 @@ nunit-*.xml
 #  Obsidian Stuff
 ###
 # Ignore volatile UI-related state
-.obsidian/workspace.json
-.obsidian/workspaces.json
+docs/.obsidian/workspace.json
+docs/.obsidian/workspaces.json
 
 # Ignore cache files and other temporary data
-.obsidian/cache/
-.obsidian/backups/
-.obsidian/temp/
+docs/.obsidian/cache/
+docs/.obsidian/backups/
+docs/.obsidian/temp/
 
 # Optionally ignore specific plugin data or entire plugin folders
-# .obsidian/plugins/*/data.json  # To ignore all plugin data files
-# .obsidian/plugins/plugin-name/ # To ignore a specific plugin's folder
+# docs/.obsidian/plugins/*/data.json  # To ignore all plugin data files
+# docs/.obsidian/plugins/plugin-name/ # To ignore a specific plugin's folder
 
 # Optionally ignore attachments or large files if not intended for Git
-# attachments/
-# assets/
+# docs/attachments/
+# docs/assets/
