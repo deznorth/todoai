@@ -52,3 +52,23 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+###
+#  Obsidian Stuff
+###
+# Ignore volatile UI-related state
+.obsidian/workspace.json
+.obsidian/workspaces.json
+
+# Ignore cache files and other temporary data
+.obsidian/cache/
+.obsidian/backups/
+.obsidian/temp/
+
+# Optionally ignore specific plugin data or entire plugin folders
+# .obsidian/plugins/*/data.json  # To ignore all plugin data files
+# .obsidian/plugins/plugin-name/ # To ignore a specific plugin's folder
+
+# Optionally ignore attachments or large files if not intended for Git
+# attachments/
+# assets/
