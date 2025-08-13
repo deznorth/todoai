@@ -72,3 +72,9 @@ docs/.obsidian/temp/
 # Optionally ignore attachments or large files if not intended for Git
 # docs/attachments/
 # docs/assets/
+
+###
+#  Claude Stuff
+###
+
+.claude/settings.local.json
