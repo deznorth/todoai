@@ -131,3 +131,4 @@ This is a To Do web application MVP built as an experiment in AI-driven software
 - 99.9% uptime SLA requirement
 - Full responsive design for desktop and mobile browsers
 - Must pass WCAG AA accessibility standards
+- use yarn instead of npm when possible
