@@ -1,5 +1,16 @@
 {
     "permissions": {
-        "deny": ["Read(**/docs/.obsidian/**)", "Read(**/docs/.human/**)"]
+        "deny": [
+            // .obsidian
+            "Read(**/docs/.obsidian/**)",
+            "Edit(**/docs/.obsidian/**)",
+            "Write(**/docs/.obsidian/**)",
+            "Bash(**/docs/.obsidian/**)",
+            // .human
+            "Read(**/docs/.human/**)",
+            "Edit(**/docs/.human/**)",
+            "Write(**/docs/.human/**)",
+            "Bash(**/docs/.human/**)"
+        ]
     }
 }
