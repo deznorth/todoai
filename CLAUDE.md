@@ -133,3 +133,4 @@ This is a To Do web application MVP built as an experiment in AI-driven software
 - Must pass WCAG AA accessibility standards
 - use yarn instead of npm when possible
 - Make sure that the dark theme stays as the default theme
+- remember to update tasks.md with progress

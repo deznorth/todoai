@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.yarn/
+.pnp.*
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment files
+.env*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# Miscellaneous
+*.tgz
+*.tar.gz

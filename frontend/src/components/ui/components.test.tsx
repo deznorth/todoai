@@ -1,13 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { Button } from './button';
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-} from './card';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './card';
 import { Input } from './input';
 import { Label } from './label';
 
@@ -50,12 +43,8 @@ describe('shadcn/ui Components', () => {
 
             expect(screen.getByText('Card Title')).toBeInTheDocument();
             expect(screen.getByText('Card Description')).toBeInTheDocument();
-            expect(
-                screen.getByText('Card content goes here')
-            ).toBeInTheDocument();
-            expect(
-                screen.getByRole('button', { name: /action/i })
-            ).toBeInTheDocument();
+            expect(screen.getByText('Card content goes here')).toBeInTheDocument();
+            expect(screen.getByRole('button', { name: /action/i })).toBeInTheDocument();
         });
     });
 
