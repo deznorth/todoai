@@ -1,2 +1,2 @@
-// Utility functions will be exported here
-export {};
+// Utility functions
+export { cn } from './utils'
