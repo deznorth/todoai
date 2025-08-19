@@ -12,5 +12,6 @@
             "Write(**/docs/.human/**)",
             "Bash(**/docs/.human/**)"
         ]
-    }
+    },
+    "includeCoAuthoredBy": false
 }
