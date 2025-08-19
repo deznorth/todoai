@@ -90,55 +90,73 @@ It features a clean and aesthetic interface with **light and dark themes** and i
 
 ### User Authentication
 
--   `POST /auth/signup`
+-   `POST /auth/signup` ✅ **Implemented**
     Registers a new user with email and password.
--   `POST /auth/login`
+-   `POST /auth/login` ✅ **Implemented**
     Authenticates and returns JWT token.
 
 ### Tasks
 
--   `GET /tasks`
+-   `GET /tasks` ✅ **Implemented**
     Returns all non-deleted tasks for the authenticated user.
--   `POST /tasks`
+-   `GET /tasks/{task_id}` ✅ **Implemented**
+    Retrieves a specific task by ID (must belong to authenticated user).
+-   `POST /tasks` ✅ **Implemented**
     Creates a new task.
--   `PUT /tasks/{task_id}`
+-   `PUT /tasks/{task_id}` ✅ **Implemented**
     Updates an existing task (must belong to authenticated user).
--   `DELETE /tasks/{task_id}`
+-   `DELETE /tasks/{task_id}` ✅ **Implemented**
     Soft-deletes a task by setting `is_deleted = true`.
 
 ---
 
 ## 8. Acceptance Criteria Summary
 
-### Authentication
+### Authentication ✅ **Backend Complete**
 
--   Users can register and log in using email/password.
--   Passwords stored using bcrypt.
--   JWT token is returned and stored in HTTP-only cookie.
+-   ✅ Users can register and log in using email/password.
+-   ✅ Passwords stored using bcrypt.
+-   ✅ JWT token is returned and stored in HTTP-only cookie.
 
-### Task Management
+### Task Management ✅ **Backend Complete**
 
--   Authenticated users can CRUD their own tasks.
--   Validation errors are returned with clear messages.
--   Soft-deleted tasks are not shown in default queries.
+-   ✅ Authenticated users can CRUD their own tasks.
+-   ✅ Validation errors are returned with clear messages.
+-   ✅ Soft-deleted tasks are not shown in default queries.
+-   ✅ Individual task retrieval by ID implemented.
 
-### UI/UX
+### UI/UX ❌ **Pending Frontend Implementation**
 
--   Theme toggle works and persists preference.
--   Fully responsive on mobile and desktop.
--   Passes WCAG AA accessibility checks.
+-   ❌ Theme toggle works and persists preference.
+-   ❌ Fully responsive on mobile and desktop.
+-   ❌ Passes WCAG AA accessibility checks.
 
 ---
 
 ## 9. MVP Timeline
 
-| Phase              | Duration | Deliverables                            |
-| ------------------ | -------- | --------------------------------------- |
-| Discovery & Design | 2 weeks  | Wireframes, final PRD                   |
-| Sprint 1           | 3 weeks  | Auth system, basic CRUD                 |
-| Sprint 2           | 3 weeks  | Due dates, priorities, tags, recurrence |
-| QA & UAT           | 2 weeks  | Bug fixes, accessibility checks         |
-| Launch             | 1 week   | Production release & monitoring         |
+| Phase              | Duration | Status | Deliverables                            |
+| ------------------ | -------- | ------ | --------------------------------------- |
+| Discovery & Design | 2 weeks  | ✅ Complete | Wireframes, final PRD                   |
+| Sprint 1           | 3 weeks  | ✅ Complete | Auth system, basic CRUD                 |
+| Sprint 2           | 3 weeks  | ✅ Complete | Due dates, priorities, tags, recurrence |
+| **Frontend Sprint**    | **3 weeks**  | **🔄 Next** | **Next.js app, UI components, theme toggle** |
+| QA & UAT           | 2 weeks  | ❌ Pending | Bug fixes, accessibility checks         |
+| Launch             | 1 week   | ❌ Pending | Production release & monitoring         |
+
+### ✅ Completed (Backend)
+- Complete .NET 8 Web API with all endpoints
+- PostgreSQL database with EF Core migrations
+- JWT authentication with HTTP-only cookies
+- Comprehensive test suite (51 passing tests)
+- All backend acceptance criteria met
+
+### 🔄 Current Phase: Frontend Development
+- Next.js application setup
+- Authentication UI (login/signup pages)
+- Task management interface
+- Theme toggle functionality
+- Responsive design implementation
 
 ---
 

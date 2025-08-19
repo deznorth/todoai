@@ -46,14 +46,15 @@ This is a To Do web application MVP built as an experiment in AI-driven software
 ## API Endpoints
 
 **Authentication:**
-- POST /auth/signup - Register new user
-- POST /auth/login - Authenticate and return JWT
+- POST /auth/signup - Register new user ✅ Implemented
+- POST /auth/login - Authenticate and return JWT ✅ Implemented
 
 **Tasks:**
-- GET /tasks - Get all non-deleted tasks for authenticated user
-- POST /tasks - Create new task
-- PUT /tasks/{task_id} - Update existing task (owner only)
-- DELETE /tasks/{task_id} - Soft delete task (owner only)
+- GET /tasks - Get all non-deleted tasks for authenticated user ✅ Implemented
+- GET /tasks/{task_id} - Get specific task by ID (owner only) ✅ Implemented
+- POST /tasks - Create new task ✅ Implemented
+- PUT /tasks/{task_id} - Update existing task (owner only) ✅ Implemented
+- DELETE /tasks/{task_id} - Soft delete task (owner only) ✅ Implemented
 
 ## Security Requirements
 
@@ -65,7 +66,63 @@ This is a To Do web application MVP built as an experiment in AI-driven software
 
 ## Development Status
 
-This is a greenfield project with comprehensive PRD and user stories defined but no code implementation yet. All features need to be built from scratch following the specifications in the documents/ folder.
+### ✅ Completed Components
+
+**Backend (.NET 8 Web API):**
+- Complete TodoApi project with all endpoints implemented
+- Entity Framework Core with PostgreSQL integration
+- JWT authentication with HTTP-only cookies
+- BCrypt password hashing (work factor 12)
+- Input validation and error handling
+- User authorization (users can only access their own tasks)
+- Soft delete functionality for tasks
+- Database migrations configured and applied
+
+**Database (PostgreSQL):**
+- Users and Tasks tables implemented with proper relationships
+- Database schema matches specifications exactly
+- Docker Compose configuration for local development
+- EF Core migrations set up and working
+
+**Testing Infrastructure:**
+- Comprehensive test suite with 51 passing tests
+- Unit tests for AuthService and TaskService (17 tests)
+- Integration tests for AuthController and TasksController (34 tests) 
+- Custom TestWebApplicationFactory for proper test isolation
+- Fluent Assertions for readable test code
+- Test configuration with appsettings.json
+
+**Project Structure:**
+- TodoApi/ - Main API project
+- TodoApi.Tests/ - Comprehensive test suite
+- docker-compose.yml - PostgreSQL database setup
+- All backend dependencies and packages configured
+
+### 🔄 In Progress
+- None currently
+
+### ❌ Pending Implementation
+
+**Frontend (Next.js):**
+- Authentication pages (login/signup forms)
+- Task management interface (list, create, edit, delete)
+- Dark/light theme toggle with localStorage
+- Responsive design for desktop and mobile
+- WCAG AA accessibility compliance
+- API integration with backend
+
+**Deployment:**
+- Frontend deployment to Vercel
+- Backend deployment to Azure/AWS
+- Production database hosting
+- Environment configuration for production
+
+### 📁 Project Files Overview
+- `/backend/TodoApi/` - Main API implementation
+- `/backend/TodoApi.Tests/` - Test suite  
+- `/docs/` - Project documentation and requirements
+- `docker-compose.yml` - Database container setup
+- `CLAUDE.md` - This documentation file
 
 ## Key Constraints
 
