@@ -4,17 +4,12 @@ This is a project to test what working alongside an AI for every step of the SDL
 
 ## Development Status
 
-### 🔄 In Progress
-
--   None currently
-
 ### ❌ Pending Implementation
 
 **Frontend (Next.js):**
 
 -   Authentication pages (login/signup forms)
 -   Task management interface (list, create, edit, delete)
--   Dark/light theme toggle with localStorage
 -   Responsive design for desktop and mobile
 -   WCAG AA accessibility compliance
 -   API integration with backend
@@ -78,7 +73,7 @@ This is a project to test what working alongside an AI for every step of the SDL
 -   Configures Tailwind CSS and the Theme System
 -   Installed and configured the ShadCN component library
 -   Set up development, linting and testing tools (ESLint, Jest, Prettier, etc.)
--   Implemented the Theme Toggle functionality
+-   Implemented the Dark/light theme toggle with localStorage
 -   Configured environment variable usage
 -   Prepared an api client and hooks (will need to revisit this)
 </details>
