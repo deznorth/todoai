@@ -42,12 +42,12 @@ These are the tasks to be completed for the spec detailed in @.agent-os/specs/20
   - [x] 5.4 Create barrel exports for clean imports
   - [x] 5.5 Verify all tests pass and imports work correctly
 
-- [ ] 6. Implement Theme Toggle Functionality
-  - [ ] 6.1 Write tests for theme switching and persistence
-  - [ ] 6.2 Create theme provider with React context
-  - [ ] 6.3 Build theme toggle component using shadcn/ui
-  - [ ] 6.4 Implement localStorage persistence for theme preference
-  - [ ] 6.5 Verify all tests pass and theme switching works properly
+- [x] 6. Implement Theme Toggle Functionality
+  - [x] 6.1 Write tests for theme switching and persistence
+  - [x] 6.2 Create theme provider with React context
+  - [x] 6.3 Build theme toggle component using shadcn/ui with sun/moon icons
+  - [x] 6.4 Implement localStorage persistence for theme preference
+  - [x] 6.5 Verify all tests pass and theme switching works properly
 
 - [ ] 7. Configure Environment and API Setup
   - [ ] 7.1 Write tests for environment variable handling

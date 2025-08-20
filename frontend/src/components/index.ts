@@ -4,6 +4,7 @@ export { Button } from './ui/button';
 export { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './ui/card';
 export { Input } from './ui/input';
 export { Label } from './ui/label';
+export { ThemeToggle } from './ui/theme-toggle';
 
 // Layout Components
 // export { Header } from './layout/header';

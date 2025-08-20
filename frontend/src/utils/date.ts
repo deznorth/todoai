@@ -27,11 +27,7 @@ export const isOverdue = (dueDate: string): boolean => {
 export const isDueToday = (dueDate: string): boolean => {
     const due = new Date(dueDate);
     const today = new Date();
-    return (
-        due.getDate() === today.getDate() &&
-        due.getMonth() === today.getMonth() &&
-        due.getFullYear() === today.getFullYear()
-    );
+    return due.getDate() === today.getDate() && due.getMonth() === today.getMonth() && due.getFullYear() === today.getFullYear();
 };
 
 export const isDueSoon = (dueDate: string, daysAhead: number = 3): boolean => {
