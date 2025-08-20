@@ -29,20 +29,20 @@ This is a project to test what working alongside an AI for every step of the SDL
 ### ✅ Completed Components
 
 <details>
-<summary>Day 1 - 8/12/25 - Planning Day</summary>
+<summary><a href="docs/0_human/journal/2025-8-12 - Day 1.md">Day 1 - 8/12/25</a> - Planning Day</summary>
 
 -   Project plan and setup
 -   Got access to Claude AI and set it up to work with my work environment
 </details>
 <details>
-<summary>Day 2 - 8/13/25 - UI research and fooling around day</summary>
+<summary><a href="docs/0_human/journal/2025-8-13 - Day 2.md">Day 2 - 8/13/25</a> - UI research and fooling around day</summary>
 
 -   Learned about and set up Agent OS
 -   Researched UI desig AIs a bit
 -   Messed around with Figma Make
 </details>
-<details open>
-<summary>Day 3 - 8/18/25 - Full back-end with unit and integration tests</summary>
+<details>
+<summary><a href="docs/0_human/journal/2025-8-18 - Day 3.md">Day 3 - 8/18/25</a> - Full back-end with unit and integration tests</summary>
 
 **Backend (.NET 8 Web API):**
 
@@ -70,4 +70,15 @@ This is a project to test what working alongside an AI for every step of the SDL
 -   Custom TestWebApplicationFactory for proper test isolation
 -   Fluent Assertions for readable test code
 -   Test configuration with appsettings.json
+</details>
+<details open>
+<summary><a href="docs/0_human/journal/2025-8-19 - Day 4.md">Day 4 - 8/19/25</a> - Front-End boiler plate setup</summary>
+
+-   Initialized NextJS Project and configured TypeScript settings
+-   Configures Tailwind CSS and the Theme System
+-   Installed and configured the ShadCN component library
+-   Set up development, linting and testing tools (ESLint, Jest, Prettier, etc.)
+-   Implemented the Theme Toggle functionality
+-   Configured environment variable usage
+-   Prepared an api client and hooks (will need to revisit this)
 </details>
