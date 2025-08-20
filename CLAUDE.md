@@ -134,3 +134,4 @@ This is a To Do web application MVP built as an experiment in AI-driven software
 - use yarn instead of npm when possible
 - Make sure that the dark theme stays as the default theme
 - remember to update tasks.md with progress
+- When looking for information about tasks make sure to check the @.agent-os\ folder first

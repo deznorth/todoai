@@ -2,7 +2,7 @@
 
 > Spec: Frontend Boilerplate Setup
 > Created: 2025-08-19
-> Status: Planning
+> Status: Done
 
 ## Overview
 
@@ -26,11 +26,11 @@ The boilerplate should include all dependencies installed, TypeScript configured
 
 ## Out of Scope
 
-- Authentication implementation (login/signup pages)
-- Task management components and pages
-- Backend API integration
-- Deployment configuration
-- Database connectivity
+-   Authentication implementation (login/signup pages)
+-   Task management components and pages
+-   Backend API integration
+-   Deployment configuration
+-   Database connectivity
 
 ## Expected Deliverable
 
@@ -40,5 +40,5 @@ The boilerplate should include all dependencies installed, TypeScript configured
 
 ## Spec Documentation
 
-- Tasks: @.agent-os/specs/2025-08-19-frontend-boilerplate-setup/tasks.md
-- Technical Specification: @.agent-os/specs/2025-08-19-frontend-boilerplate-setup/sub-specs/technical-spec.md
+-   Tasks: @.agent-os/specs/2025-08-19-frontend-boilerplate-setup/tasks.md
+-   Technical Specification: @.agent-os/specs/2025-08-19-frontend-boilerplate-setup/sub-specs/technical-spec.md
