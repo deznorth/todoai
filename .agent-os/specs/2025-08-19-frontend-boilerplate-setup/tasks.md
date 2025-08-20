@@ -49,12 +49,12 @@ These are the tasks to be completed for the spec detailed in @.agent-os/specs/20
   - [x] 6.4 Implement localStorage persistence for theme preference
   - [x] 6.5 Verify all tests pass and theme switching works properly
 
-- [ ] 7. Configure Environment and API Setup
-  - [ ] 7.1 Write tests for environment variable handling
-  - [ ] 7.2 Set up environment variables for API endpoints
-  - [ ] 7.3 Create API client configuration structure
-  - [ ] 7.4 Configure CORS and request handling patterns
-  - [ ] 7.5 Verify all tests pass and environment setup works
+- [x] 7. Configure Environment and API Setup
+  - [x] 7.1 Write tests for environment variable handling
+  - [x] 7.2 Set up environment variables for API endpoints
+  - [x] 7.3 Create API client configuration structure
+  - [x] 7.4 Configure CORS and request handling patterns
+  - [x] 7.5 Verify all tests pass and environment setup works
 
 - [ ] 8. Final Verification and Documentation
   - [ ] 8.1 Run full test suite and ensure 100% pass rate
